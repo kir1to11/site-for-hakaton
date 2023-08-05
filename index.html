@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waterbook - Социальная сеть подводного мира</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="registr-page">
+        <div>
+            <p style="font-size: 60px;margin-bottom: 0%;color: aliceblue;">Waterbook</p>
+        <div class="registr-info">
+            <h2>
+            Waterbook предоставляет возможность  <br>
+            поддерживать постоянную связь и общение <br>
+            c друзьями под водой.</h2>
+        </div></div>
+        <div class="registr">
+            <input class="login" type="text" name="login" placeholder="Логин">
+            <input class="password-input" type="password" name="password" placeholder="Пароль">
+            <button class="log-in-btn">Вход</button>
+            <div class="incorrect"></div>
+        </div>
+    </div>
+    <div class="main-page">
+        <header style=" 
+        width: 100%;
+        position: static;
+        top: 0;text-align: center;
+        justify-content: center;">
+        <p class="logo">W</p><h1 style="word-wrap: break-word;">aterbook - Социальная сеть подводного мира</h1>
+        </header>
+        <main style="display: flex;margin: 0px;">
+        <div class="posts">
+            <div class="posts_header">
+                <h1 style="font-family: Andale Mono, monospace;">Главная страница</h1>
+                <img class="show_menu" src="./images/others/show_menu.png">
+            </div>
+        </div>
+        
+        <div class="menu">
+            <div class="mini-prof">
+            <img class="pfp" width="50px" height="50px" src="./images/pfp/tuna_pfp.jpg">
+            <h3>tuna202</h3>
+            <select class="select_status" name="status" id="" aria-placeholder="Выберите статус">
+                <option hidden="">--выберите статус--</option>
+                <option style="color: rgb(32, 168, 32);" value="online">Онлайн</option>
+                <option style="color: red;" value="dont_disturb">Не беспокоить</option>
+                <option style="color: grey;" value="ghost">Невидимый</option>
+            </select>
+            </div>
+            <button class="edit_profile">Редактировать профиль</button>
+            <div class="friends">Друзья</div>
+            <button class="exit_account">Выйти</button>
+        </div>
+        <a href="#" id="scroll_top" title="Наверх"><img src="./images/others/scrolltotop.png" width="50px" height="50px" alt=""></a>
+    </main>
+    
+    
+    </div>
+    <footer id="footer">
+        
+        <div class="footer-content">
+            <p>
+                Добро пожаловать в захватывающий подводный мир нашей социальной сети! В этом уникальном онлайн-пространстве вы сможете погрузиться в глубины океана и общаться с единомышленниками из разных уголков подводного мира.</p>
+            <ul class="footerul">
+                <li><a href="#">Главная</a></li>
+                <li>О нас</li>
+                <li>Контакты
+                    <ul>
+                        <li>Почта: example.waterbook@gmail.com</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <p>&copy; 2023 Waterbook. All rights reserved.</p>
+
+    </footer>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="data.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
